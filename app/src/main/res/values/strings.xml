@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MarvelTestApp</string>
+    <string name="activity_home_title">Marvel Universe</string>
+    <string name="generic_error_connection_timeout">Your internet connection is not reachable.</string>
+    <string name="generic_error_unknown">An issue occurred, please retry</string>
+    <string name="generic_error_tap_to_refresh">Something bad happened, tap to call Captain Marvel to the rescue !</string>
+    <string name="activity_home_query_hint_text">Find your super hero</string>
+    <string name="activity_hero_details_no_infos">Oups ! It seems that there is no info about this super hero…</string>
+</resources>

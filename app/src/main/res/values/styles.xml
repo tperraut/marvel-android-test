@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppBarTitle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="titleTextAppearance">@style/AppBarTitle.TitleAppearance</item>
+        <item name="contentInsetStart">0dp</item>
+    </style>
+
+    <style name="AppBarTitle.TitleAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:fontFamily">@font/orbitron_bold</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AppBarTitle.ExpandedTitleAppearance" parent="AppBarTitle.TitleAppearance">
+        <item name="android:textSize">@dimen/text_size_28</item>
+    </style>
+</resources>

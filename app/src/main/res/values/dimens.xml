@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default values -->
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="default_padding_half_and_quarter">12dp</dimen>
+    <dimen name="default_padding_half">8dp</dimen>
+    <dimen name="default_padding_quarter">4dp</dimen>
+    <dimen name="default_padding_small">2dp</dimen>
+    <dimen name="default_padding_and_quarter">20dp</dimen>
+    <dimen name="default_padding_and_half">24dp</dimen>
+    <dimen name="default_padding_double">32dp</dimen>
+    <dimen name="default_padding_double_and_half">40dp</dimen>
+    <dimen name="default_padding_triple">48dp</dimen>
+    <dimen name="default_padding_x4">64dp</dimen>
+    <dimen name="default_padding_x6">96dp</dimen>
+    <dimen name="default_padding_x7">112dp</dimen>
+    <dimen name="default_padding_x1_5">24dp</dimen>
+
+    <!-- Text size -->
+    <dimen name="text_size_45">45sp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+    <dimen name="text_size_36">36sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_26">26sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_23">23sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+
+    <!-- Radius -->
+    <dimen name="default_bt_radius">60dp</dimen>
+    <dimen name="card_elevation_default">4dp</dimen>
+    <dimen name="card_radius_medium">6dp</dimen>
+    <dimen name="card_radius_big">8dp</dimen>
+    <dimen name="card_radius_double">12dp</dimen>
+    <dimen name="thumbnail_size">60dp</dimen>
+    <dimen name="large_appbar_height">300dp</dimen>
+</resources>
