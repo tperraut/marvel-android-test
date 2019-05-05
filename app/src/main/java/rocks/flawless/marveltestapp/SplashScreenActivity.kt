@@ -6,6 +6,7 @@ import kotlinx.android.synthetic.main.activity_splashscreen.*
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import rocks.flawless.marveltestapp.api.MainScope
+import rocks.flawless.marveltestapp.helpers.start
 import rocks.flawless.marveltestapp.home.HomeActivity
 
 class SplashScreenActivity : AppCompatActivity() {
@@ -27,7 +28,7 @@ class SplashScreenActivity : AppCompatActivity() {
         )
         _mainScope.launch {
             delay(_splashScreenDelayInMillis)
-            HomeActivity.start(this@SplashScreenActivity)
+            start<HomeActivity>(true)
         }
     }
 }

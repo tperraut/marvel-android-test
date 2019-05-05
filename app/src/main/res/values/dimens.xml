@@ -39,7 +39,10 @@
 
     <!-- Radius -->
     <dimen name="default_bt_radius">60dp</dimen>
+    <dimen name="card_elevation_default">4dp</dimen>
     <dimen name="card_radius_medium">6dp</dimen>
     <dimen name="card_radius_big">8dp</dimen>
     <dimen name="card_radius_double">12dp</dimen>
+    <dimen name="thumbnail_size">60dp</dimen>
+    <dimen name="large_appbar_height">300dp</dimen>
 </resources>

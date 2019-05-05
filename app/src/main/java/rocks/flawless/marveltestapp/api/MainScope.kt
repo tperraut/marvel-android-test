@@ -12,7 +12,7 @@ import kotlin.coroutines.CoroutineContext
  * This class create a scope on Main Thread
  * and embedded the current running job and can be connected to activity lifecycle
  *
- * If you want to manage the job flow yourself, just don't pass lifecycle to constructor and call
+ * If you want to manage the job flow yourself, just don't pass lifecycle to constructor and safeCall
  * onCreate and onCancel as you wish
  *
  * @property Lifecycle the activity lifecycle

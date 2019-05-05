@@ -3,6 +3,8 @@
           xmlns:tools="http://schemas.android.com/tools"
           package="rocks.flawless.marveltestapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
             android:name=".MarvelAndroidTestApplication"
             android:allowBackup="true"
@@ -13,6 +15,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
+
+        <uses-library
+                android:name="org.apache.http.legacy"
+                android:required="false"/>
 
         <activity
                 android:name=".SplashScreenActivity"
@@ -27,6 +33,10 @@
 
         <activity
                 android:name=".home.HomeActivity"
+                android:screenOrientation="portrait"/>
+
+        <activity
+                android:name=".hero.HeroDetailsActivity"
                 android:screenOrientation="portrait"/>
     </application>
 </manifest>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#A81178BC</color>
+    <color name="colorPrimary">#4478BC</color>
     <color name="colorPrimaryDark">#1178BC</color>
     <color name="colorAccent">#FF0F0F</color>
 
-    <color name="ripple">#78000000</color>
+    <color name="dark_overlay">#4D000000</color>
+    <color name="ripple">#78FF0F0F</color>
 </resources>
