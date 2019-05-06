@@ -3,8 +3,11 @@ A little Android app using [Marvel API](https://developer.marvel.com/docs)
 
 ## Architecture
 MVI : Model View Intention
+
 The view **observe** an immutable state holds by a **viewModel** and can dispatch **actions**.
+
 The viewModel handle **actions**, manage the work based on **action type** and create a **new state** with updated models.
+
 As the view observe the **state**, it automatically updates when the **state** is changed 
 
 ## Libraries
